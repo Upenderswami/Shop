@@ -60,10 +60,11 @@
 }
 span
 {
-    background-color: magenta;
+    background-color:darkred;
     width: auto;
     height: auto;
     padding: 4px;
+    color: aliceblue;
 }
 .color
 {
