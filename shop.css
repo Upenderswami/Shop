@@ -15,6 +15,7 @@
     height: 470px;
     margin: auto;
     margin-top: 70px ;
+    overflow: hidden;
 }
 .shirt img
 {
@@ -99,13 +100,13 @@ span
   background-color: black;
   color: white;
   font-size: 20px;
-  padding: 6px 40px ;
+  padding: 10px 40px ;
   border: 1.5px;
-  margin: 10px 90px 10px 90px ;
+  margin: 90px 90px 10px 90px ;
   border-radius: 10px;
 
 }
-.add
+.add 
 {
     margin: auto;
 }
@@ -113,13 +114,16 @@ span
 .main
 {
 position: absolute;
-bottom: 0%;
+bottom: -220px;
+width: 100%;
 background-color:white;
-opacity: 0;
+transition: .5s ease-in-out;
+/* transform: translate(10px,-10px); */
 }
-.main:hover
+.shirt:hover .main
 {
-  opacity: 1;
-  transform: translate(0px,-30px);
-  transition: 1s ease;
+    height: 300px;
+    bottom: -10px;
+  /* opacity: 1;
+  transition: 1s ease; */
 }
