@@ -7,11 +7,12 @@
 }
 .shirt
 {
+    position: relative;
     align-items: center;
     justify-content: center;
     box-shadow: .1px .1px 10px rgb(87, 197, 197);
     width: 380px;
-    height: 690px;
+    height: 470px;
     margin: auto;
     margin-top: 70px ;
 }
@@ -66,27 +67,27 @@ span
 {
     background-color: blue;
     height: 25px;
-    width: 25px;
-    margin: 20px 15px;
+    width: 22px;
+    margin: 30px 15px;
 }
 .color1
 {
     background-color:darkred;
     height: 25px;
-    width: 25px;
-    margin: 20px 15px;
+    width: 22px;
+    margin: 30px 15px;
 }.color2
 {
     background-color: darkolivegreen;
     height: 25px;
-    width: 25px;
-    margin: 20px 15px;
+    width: 22px;
+    margin: 30px 15px;
 }.color3
 {
     background-color: magenta;
     height: 25px;
-    width: 25px;
-    margin: 20px 15px;
+    width: 22px;
+    margin: 30px 15px;
 }
 .all
 {
@@ -107,7 +108,18 @@ span
 .add
 {
     margin: auto;
-    
-  
 }
 
+.main
+{
+position: absolute;
+bottom: 0%;
+background-color:white;
+opacity: 0;
+}
+.main:hover
+{
+  opacity: 1;
+  transform: translate(0px,-30px);
+  transition: 1s ease;
+}
